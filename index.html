@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Desarrollo WEB</title>
+</head>
+<body>
+    <!--SECCION INICIO-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>RM</h1>
+                    <nav id="nav" class="class">
+                    <ul id="links">
+                        <li><a href="#inicio" class="seleccionado">Home</a></li>
+                        <li><a href="#sobremi" >About Us</a></li>
+                        <li><a href="#skills" >Skills</a></li>
+                        <li><a href="#portafolio" >Briefcase</a></li>
+                        <li><a href="#contacto" >Contact Us</a></li>
+                    </ul>
+                    </nav>
+                    <div class="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <!--ICONOS DE MIS REDES SOCIALES-->
+                    <div class="redes">
+                        <a href="https://www.youtube.com/channel/UCBpUVLmZH2imlwPoS9EIvlA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/ren.medra/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/rmedranorodriguez" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Hi, My name is</p>
+                <h2><span>Renzo Medrano</span><br>I'm a Web Developer</h2><br>
+                <a href="#portafolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+    <!--SOBRE MI-->
+    <section>
+        <div id="sobremi">
+            <div class="contenedor-foto">
+                <img src="./Foto.JPG" alt="">
+            </div>
+            <div class="sobremi">
+                <p class="tituloseccion">About me</p>
+                <h2>Hi, I'm <span>Renzo Medrano</span></h2>
+                <h3>Developer & <span style ="color:#ff5580;">Programmer</span></h3>
+                <p>
+                I am a professional back-end, I like to program in php, pyhton, javascript.</p>
+                <p>I am currently programming in asp .net and I would like to work as a front end developer</p>
+                <a href="#">Download CV</a>
+            </div>
+        </div>
+    </section>
+<!--SKILLS-->
+<div class="contenedor-skills" id="skills">
+    <h3>My abilities</h3>
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>HTML&CSS</p>
+            <span class="porcentaje">60%</span>
+        </div>
+        <div class="barra">
+            <div id="html" class=""></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>PYTHON</p>
+            <span class="porcentaje">30%</span>
+        </div>
+        <div class="barra">
+            <div id="python" class=""></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>JAVASCRIPT</p>
+            <span class="porcentaje">70%</span>
+        </div>
+        <div class="barra">
+            <div id="javascript" class=""></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>PHP</p>
+            <span class="porcentaje">40%</span>
+        </div>
+        <div class="barra">
+            <div id="php" class=""></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>BOOTSTRAP</p>
+            <span class="porcentaje">30%</span>
+        </div>
+        <div class="barra">
+            <div id="bootstrap" class=""></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>ANGULAR</p>
+            <span class="porcentaje">20%</span>
+        </div>
+        <div class="barra">
+            <div id="angular" class=""></div>
+        </div>
+    </div>
+
+</div>
+<!--PORTAFOLIO-->
+<section id="portafolio">
+    <h3 class="titulo-seccion">My Projects</h3>
+    <div class="fila">
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <a href="https://rmedranorodriguez.github.io/Cards/">
+                <img src="./cards.PNG" alt="">
+            </a>
+            <div class="info">
+                <h4>Reto 1</h4>
+                <p>Card Description</p>
+            </div>
+        </div>
+
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <a href="https://rmedranorodriguez.github.io/Conoceme/">
+                <img src="./conoceme.PNG" alt="">
+            </a>
+            <div class="info">
+                <h4>Conoceme</h4>
+                <p>Iniciando en Front-end</p>
+            </div>
+        </div>
+
+        <div class="proyecto">
+        <div class="overlay"></div>
+        <a href="https://rmedranorodriguez.github.io/Figma01/">
+            <img src="./figma1.PNG" alt="">
+        </a>
+            <div class="info">
+                <h4>Figma 1</h4>
+                <p>Esta la primera practica calificada</p>
+            </div>
+        </div>
+    </div>
+    <div class="fila">
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <a href="https://rmedranorodriguez.github.io/Figma02/">
+                <img src="./figma2.PNG" alt="">
+            </a>
+            <div class="info">
+                <h4>Figma 2</h4>
+                <p>Esta la segunda practica calificada</p>
+            </div>
+        </div>
+
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <a href="https://rmedranorodriguez.github.io/Reto03/">
+                <img src="./reto3.PNG" alt="">
+            </a>
+            <div class="info">
+                <h4>Reto 03</h4>
+                <p>Tercer reto</p>
+            </div>
+        </div>
+
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <a href="https://rmedranorodriguez.github.io/Reto04/">
+                <img src="./reto4.PNG" alt="">
+            </a>
+            <div class="info">
+                <h4>Reto 04</h4>
+                <p>Este es el reto 04</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="fila">
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <a href="https://rmedranorodriguez.github.io/Reto05/">
+                <img src="./reto5.PNG" alt="">
+            </a>
+            <div class="info">
+                <h4>Reto 05</h4>
+                <p>Este es el reto 05</p>
+            </div>
+        </div>
+
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <a href="https://rmedranorodriguez.github.io/Reto06/">
+                <img src="./reto6.PNG" alt="">
+            </a>
+            <div class="info">
+                <h4>Reto 06</h4>
+                <p>Este es el reto 06</p>
+            </div>
+        </div>
+
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <a href="https://rmedranorodriguez.github.io/Reto04/">
+                <img src="./figma3.PNG" alt="">
+            </a>
+            <div class="info">
+                <h4>Figma 03</h4>
+                <p>Este es el figma 03</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contacto">
+    <h3 class="titulo-seccion">Contact me</h3>
+    <div class="contenedor-form">
+        <form action="">
+            <div class="fila mitad">
+                <input type="text" placeholder="Ingresa tu nombre" class="input-mitad">
+                <input type="text" placeholder="Ingresa tu correo" class="input-mitad">
+            </div>
+            <div class="fila">
+                <input type="text" placeholder="Tema.." class="input-full">
+            </div>
+            <div class="fila">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje!!" class="input-full"></textarea>
+            </div>
+            <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+        </form>
+    </div>
+</section>
+<footer>
+    <p>Hecho por &copy;<span>Renzo Medrano</span></p>
+    <div class="redes">
+        <a href="https://www.youtube.com/channel/UCBpUVLmZH2imlwPoS9EIvlA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.facebook.com/ren.medra/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://github.com/rmedranorodriguez" target="_blank"><i class="fa-brands fa-github"></i></a>
+    </div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
